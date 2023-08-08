@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .side-menu-item {
+    @apply m-2 flex items-center gap-4 p-2 rounded-md hover:bg-gray-800;
+  }
+}
